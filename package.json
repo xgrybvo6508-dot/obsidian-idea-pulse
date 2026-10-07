@@ -1,0 +1,2 @@
+{"name":"obsidian-idea-pulse","version":"0.2.0","private":true,"scripts":{"build":"tsc --noEmit && node esbuild.config.mjs","test":"node test/mock.test.mjs"},
+"devDependencies":{"obsidian":"latest","esbuild":"^0.21.0","typescript":"^5.4.0","@types/node":"^20.0.0"}}

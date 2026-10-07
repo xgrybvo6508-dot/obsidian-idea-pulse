@@ -1,0 +1,9 @@
+.idea-pulse-chat{display:flex;flex-direction:column;height:100%;gap:8px;padding:8px}
+.idea-pulse-chat .ip-hint{color:var(--text-muted);font-size:var(--font-ui-small)}
+.idea-pulse-chat .ip-log{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:8px}
+.idea-pulse-chat .ip-msg{padding:6px 10px;border-radius:8px;background:var(--background-secondary)}
+.idea-pulse-chat .ip-user{align-self:flex-end;background:var(--interactive-accent);color:var(--text-on-accent)}
+.idea-pulse-chat .ip-msg p{margin:4px 0}
+.idea-pulse-chat .ip-wait{color:var(--text-muted)}
+.idea-pulse-chat .ip-form{display:flex;flex-direction:column;gap:6px}
+.idea-pulse-chat textarea{width:100%;resize:vertical}
